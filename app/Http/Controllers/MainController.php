@@ -9,10 +9,14 @@ class MainController extends Controller
     function index(){
         return view('index', ['title' => 'Home']);
     }
+    function jobs(){
+        return view('jobs', ['title' => 'Jobs']);
+    }
+
     function about(){
-        return view('about', ['title' => 'Home']);
+        return view('about', ['title' => 'About']);
     }
     function contact(){
-        return view('contact', ['title' => 'Home']);
+        return view('contact', ['title' => 'Contact']);
     }
 }
