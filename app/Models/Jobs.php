@@ -6,5 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Jobs extends Model
 {
-    //
+
+    public $fillable = ['title', 'publisher', 'description', 'published'];
+
+    public $guarded = ['id'];
 }
+    //
+
