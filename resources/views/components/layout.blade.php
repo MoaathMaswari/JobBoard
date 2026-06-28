@@ -39,7 +39,7 @@
             </div>
           </div>
 
-          <div class="-mr-2 flex md:hidden">
+          {{-- <div class="-mr-2 flex md:hidden">
             <!-- Mobile menu button -->
             <button type="button" command="--toggle" commandfor="mobile-menu" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-white/5 hover:text-white focus:outline-2 focus:outline-offset-2 focus:outline-indigo-500">
               <span class="absolute -inset-0.5"></span>
@@ -64,7 +64,7 @@
           <a href="/contact" class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/5 hover:text-white">Contact</a>
         </div>
 
-      </el-disclosure>
+      </el-disclosure> --}}
     </nav>
 
     <header class="relative bg-gray-800/50 after:pointer-events-none after:absolute after:inset-x-0 after:inset-y-0 after:border-y after:border-white/10">
