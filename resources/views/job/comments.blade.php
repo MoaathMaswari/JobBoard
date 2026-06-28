@@ -11,6 +11,6 @@
         <br>
     @endforeach
 
-    <a class="border-4 border-yellow-500 p-2 m-1 rounded-xl" href="/job/comment/{{$job->id}}">Add Comment</a><br>
+    <a class="border-4 border-yellow-500 p-2 m-1 rounded-xl" href="/comment/{{$job->id}}">Add Comment</a><br>
 
 </x-layout>
